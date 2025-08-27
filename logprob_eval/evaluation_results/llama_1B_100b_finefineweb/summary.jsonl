@@ -1,0 +1,3 @@
+{"model": "llama_1B_100b_finefineweb", "task": "arc_easy", "accuracy": 0.24912280701754386, "correct": 142, "total": 570, "timestamp": "2025-08-26T12:12:50.883505"}
+{"model": "llama_1B_100b_finefineweb", "task": "arc_easy", "accuracy": 0.28771929824561404, "correct": 164, "total": 570, "timestamp": "2025-08-26T12:21:48.059400"}
+{"model": "llama_1B_100b_finefineweb", "task": "hellaswag", "accuracy": 0.41286596295558653, "correct": 4146, "total": 10042, "timestamp": "2025-08-26T15:52:33.102795"}

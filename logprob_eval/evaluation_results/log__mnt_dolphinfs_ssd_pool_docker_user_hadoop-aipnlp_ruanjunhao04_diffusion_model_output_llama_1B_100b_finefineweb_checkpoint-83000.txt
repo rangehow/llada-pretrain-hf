@@ -1,0 +1,34 @@
+2025-08-19 16:12:10,511	INFO worker.py:1832 -- Started a local Ray instance. View the dashboard at [1m[32mhttp://127.0.0.1:8265 [39m[22m
+Arguments: Namespace(model_name_or_path='/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/diffusion/model_output/llama_1B_100b_finefineweb/checkpoint-83000', model_type='causal', tasks='arc_easy', batch_size=32, limit=0, output_dir='evaluation_results', num_workers=4, trust_remote_code=True)
+Found 2 GPUs. Creating one actor per GPU.
+
+----- Starting evaluation for task: arc_easy -----
+Processing task: arc_easy (Logprob Mode)
+[arc_easy] Standardizing columns:   0%|          | 0/570 [00:00<?, ? examples/s][arc_easy] Standardizing columns: 100%|██████████| 570/570 [00:00<00:00, 9782.21 examples/s]
+Filter:   0%|          | 0/570 [00:00<?, ? examples/s]Filter: 100%|██████████| 570/570 [00:00<00:00, 41467.98 examples/s]
+Flattening the indices:   0%|          | 0/570 [00:00<?, ? examples/s]Flattening the indices: 100%|██████████| 570/570 [00:00<00:00, 40793.66 examples/s]
+[arc_easy] Expanding for logprob evaluation:   0%|          | 0/570 [00:00<?, ? examples/s][arc_easy] Expanding for logprob evaluation: 100%|██████████| 570/570 [00:00<00:00, 2789.49 examples/s][arc_easy] Expanding for logprob evaluation: 100%|██████████| 570/570 [00:00<00:00, 2649.35 examples/s]
+Starting Ray evaluation on 2281 samples with 2 GPUs...
+Distributing batches to GPUs:   0%|          | 0/72 [00:00<?, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Distributing batches to GPUs:  49%|████▊     | 35/72 [00:00<00:00, 346.89it/s]Distributing batches to GPUs: 100%|██████████| 72/72 [00:00<00:00, 411.55it/s]
+Collecting results from GPUs:   0%|          | 0/72 [00:00<?, ?it/s]Collecting results from GPUs:   1%|▏         | 1/72 [00:09<11:25,  9.65s/it]Collecting results from GPUs:   7%|▋         | 5/72 [00:09<01:38,  1.47s/it]Collecting results from GPUs:  12%|█▎        | 9/72 [00:09<00:42,  1.47it/s]Collecting results from GPUs:  17%|█▋        | 12/72 [00:10<00:26,  2.27it/s]Collecting results from GPUs:  22%|██▏       | 16/72 [00:10<00:15,  3.71it/s]Collecting results from GPUs:  28%|██▊       | 20/72 [00:10<00:09,  5.54it/s]Collecting results from GPUs:  33%|███▎      | 24/72 [00:10<00:06,  7.83it/s]Collecting results from GPUs:  39%|███▉      | 28/72 [00:10<00:04, 10.31it/s]Collecting results from GPUs:  44%|████▍     | 32/72 [00:10<00:02, 13.37it/s]Collecting results from GPUs:  53%|█████▎    | 38/72 [00:10<00:01, 18.89it/s]Collecting results from GPUs:  58%|█████▊    | 42/72 [00:10<00:01, 21.43it/s]Collecting results from GPUs:  64%|██████▍   | 46/72 [00:11<00:01, 22.54it/s]Collecting results from GPUs:  69%|██████▉   | 50/72 [00:11<00:00, 24.91it/s]Collecting results from GPUs:  75%|███████▌  | 54/72 [00:11<00:00, 27.40it/s]Collecting results from GPUs:  81%|████████  | 58/72 [00:11<00:00, 28.56it/s]Collecting results from GPUs:  88%|████████▊ | 63/72 [00:11<00:00, 29.70it/s]Collecting results from GPUs:  96%|█████████▌| 69/72 [00:11<00:00, 32.05it/s]Collecting results from GPUs: 100%|██████████| 72/72 [00:11<00:00,  6.13it/s]
+
+=== ARC_EASY Evaluation Results ===
+Model: /mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/diffusion/model_output/llama_1B_100b_finefineweb/checkpoint-83000
+Accuracy: 0.2298 (22.98%) (131/570)
+Results for task arc_easy saved to evaluation_results/_mnt_dolphinfs_ssd_pool_docker_user_hadoop-aipnlp_ruanjunhao04_diffusion_model_output_llama_1B_100b_finefineweb_checkpoint-83000__arc_easy.json

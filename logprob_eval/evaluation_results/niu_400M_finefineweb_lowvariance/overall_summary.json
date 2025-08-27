@@ -1,0 +1,25 @@
+{
+  "model_name": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/diffusion/model_output/niu_400M_finefineweb_lowvariance/checkpoint-309339",
+  "model_short_name": "niu_400M_finefineweb_lowvariance",
+  "model_type": "causal",
+  "timestamp": "2025-08-26T11:32:34.771576",
+  "tasks": [
+    {
+      "task": "arc_easy",
+      "accuracy": 0.22631578947368422,
+      "correct": 129,
+      "total": 570
+    }
+  ],
+  "average_accuracy": 0.22631578947368422,
+  "args": {
+    "model_name_or_path": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/diffusion/model_output/niu_400M_finefineweb_lowvariance/checkpoint-309339",
+    "model_type": "causal",
+    "tasks": "arc_easy",
+    "batch_size": 32,
+    "limit": 0,
+    "output_dir": "evaluation_results",
+    "num_workers": 4,
+    "trust_remote_code": true
+  }
+}

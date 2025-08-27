@@ -1,0 +1,57 @@
+{
+    "architectures": [
+      "LLaDAModelLM"
+    ],
+    "model_type": "llada",
+    "transformers_version": "4.47.0.dev0",
+
+    "_comment_core_dims": "Core dimensions aligned with ModernBert-large",
+    "d_model": 1024,
+    "n_layers": 2,
+    "n_heads": 16,
+    "n_kv_heads": 16,
+    "mlp_hidden_size": 2624,
+    "vocab_size": 50368,
+    "embedding_size": 50368,
+    "max_sequence_length": 8192,
+
+    "_comment_activation": "MLP activation function aligned with ModernBert",
+    "activation_type": "silu",
+
+    "_comment_normalization": "LayerNorm settings aligned with ModernBert",
+    "layer_norm_type": "default",
+    "layer_norm_with_affine": true,
+    "bias_for_layer_norm": false,
+    "rms_norm_eps": 1e-05,
+
+    "_comment_bias": "Bias settings for Linear layers aligned with ModernBert",
+    "include_bias": false,
+    "include_qkv_bias": false,
+
+    "_comment_attention": "Attention and RoPE settings aligned with ModernBert",
+    "rope": true,
+    "rope_theta": 160000.0,
+    "rope_full_precision": true,
+    "alibi": false,
+
+    "_comment_dropout": "Dropout rates aligned with ModernBert",
+    "attention_dropout": 0.0,
+    "embedding_dropout": 0.0,
+    "residual_dropout": 0.0,
+
+    "_comment_initialization": "Initialization scheme aligned with ModernBert",
+    "init_fn": "full_megatron",
+    "init_std": 0.02,
+    "init_cutoff_factor": 2.0,
+
+    "_comment_misc": "Other settings for encoder-style model",
+    "block_type": "llama",
+    "use_cache": false,
+    "weight_tying": true,
+    "block_group_size": 1,
+    "init_device": "meta",
+    "flash_attention": true,
+    "input_emb_norm": false,
+    "scale_logits": false,
+    "pad_token_id": 50283
+  }

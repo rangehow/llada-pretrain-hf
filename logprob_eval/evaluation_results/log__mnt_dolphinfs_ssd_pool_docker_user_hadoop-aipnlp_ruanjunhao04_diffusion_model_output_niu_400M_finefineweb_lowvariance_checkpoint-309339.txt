@@ -1,0 +1,27 @@
+2025-08-26 14:41:24,543	INFO worker.py:1832 -- Started a local Ray instance. View the dashboard at [1m[32mhttp://127.0.0.1:8265 [39m[22m
+Arguments: Namespace(model_name_or_path='/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/diffusion/model_output/niu_400M_finefineweb_lowvariance/checkpoint-309339', model_type='causal', tasks='arc_easy', batch_size=32, limit=0, output_dir='evaluation_results', num_workers=4, trust_remote_code=True)
+Results will be saved to: evaluation_results/niu_400M_finefineweb_lowvariance
+Model short name: niu_400M_finefineweb_lowvariance
+Found 2 GPUs. Creating one actor per GPU.
+
+----- Starting evaluation for task: arc_easy -----
+Processing task: arc_easy (Logprob Mode)
+[arc_easy] Expanding for logprob evaluation:   0%|          | 0/570 [00:00<?, ? examples/s][arc_easy] Expanding for logprob evaluation: 100%|██████████| 570/570 [00:00<00:00, 2688.72 examples/s][arc_easy] Expanding for logprob evaluation: 100%|██████████| 570/570 [00:00<00:00, 2573.25 examples/s]
+> /mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion/logprob_eval/main.py(386)main()
+-> results, group_results = evaluate_dataset_ray(
+(Pdb) [36m(Evaluator pid=240216)[0m 🚨 `causal` is part of ModernBertModel.forward's signature, but not documented. Make sure to add it to the docstring of the function in /mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/.cache/modules/transformers_modules/checkpoint-309339/modeling_niu.py.
+[36m(Evaluator pid=240216)[0m Automatically determined corrector_loss_weight: 15.62
+
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion/logprob_eval/main.py", line 448, in <module>
+    main()
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion/logprob_eval/main.py", line 386, in main
+    results, group_results = evaluate_dataset_ray(
+                             ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/miniforge3/envs/sglang/lib/python3.12/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/miniforge3/envs/sglang/lib/python3.12/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit

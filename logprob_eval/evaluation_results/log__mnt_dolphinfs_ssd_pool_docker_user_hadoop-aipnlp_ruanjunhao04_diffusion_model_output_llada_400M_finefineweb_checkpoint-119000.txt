@@ -1,0 +1,34 @@
+2025-08-25 11:07:17,265	INFO worker.py:1832 -- Started a local Ray instance. View the dashboard at [1m[32mhttp://127.0.0.1:8265 [39m[22m
+Arguments: Namespace(model_name_or_path='/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/diffusion/model_output/llada_400M_finefineweb/checkpoint-119000', model_type='masked', tasks='arc_easy', batch_size=32, limit=0, output_dir='evaluation_results', num_workers=4, trust_remote_code=True)
+Found 2 GPUs. Creating one actor per GPU.
+Warning: Batch size 32 might be very slow for masked LMs. Consider reducing it.
+
+----- Starting evaluation for task: arc_easy -----
+Processing task: arc_easy (Logprob Mode)
+[arc_easy] Expanding for logprob evaluation: 100%|██████████| 570/570 [00:00<?, ? examples/s][arc_easy] Expanding for logprob evaluation: 1140 examples [00:00, 2700.70 examples/s]       [arc_easy] Expanding for logprob evaluation: 1140 examples [00:00, 2565.32 examples/s]
+Starting Ray evaluation on 2281 samples with 2 GPUs...
+Distributing batches to GPUs:   0%|          | 0/72 [00:00<?, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Distributing batches to GPUs:  47%|████▋     | 34/72 [00:00<00:00, 336.66it/s]Distributing batches to GPUs: 100%|██████████| 72/72 [00:00<00:00, 421.38it/s]
+Collecting results from GPUs:   0%|          | 0/72 [00:00<?, ?it/s][36m(Evaluator pid=106256)[0m You're using a PreTrainedTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+Collecting results from GPUs:   1%|▏         | 1/72 [00:11<13:53, 11.75s/it]Collecting results from GPUs:  10%|▉         | 7/72 [00:11<01:20,  1.24s/it]Collecting results from GPUs:  21%|██        | 15/72 [00:11<00:26,  2.13it/s]Collecting results from GPUs:  32%|███▏      | 23/72 [00:12<00:12,  3.95it/s]Collecting results from GPUs:  43%|████▎     | 31/72 [00:12<00:06,  6.36it/s]Collecting results from GPUs:  54%|█████▍    | 39/72 [00:12<00:03,  9.53it/s]Collecting results from GPUs:  65%|██████▌   | 47/72 [00:12<00:01, 13.48it/s]Collecting results from GPUs:  75%|███████▌  | 54/72 [00:12<00:01, 17.70it/s]Collecting results from GPUs:  85%|████████▍ | 61/72 [00:12<00:00, 22.56it/s]Collecting results from GPUs:  96%|█████████▌| 69/72 [00:12<00:00, 29.19it/s]Collecting results from GPUs: 100%|██████████| 72/72 [00:12<00:00,  5.62it/s]
+[36m(Evaluator pid=106266)[0m You're using a PreTrainedTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+
+=== ARC_EASY Evaluation Results ===
+Model: /mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/diffusion/model_output/llada_400M_finefineweb/checkpoint-119000
+Accuracy: 0.2439 (24.39%) (139/570)
+Results for task arc_easy saved to evaluation_results/_mnt_dolphinfs_ssd_pool_docker_user_hadoop-aipnlp_ruanjunhao04_diffusion_model_output_llada_400M_finefineweb_checkpoint-119000__arc_easy.json

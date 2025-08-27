@@ -1,0 +1,2 @@
+{"model": "niu_1B_100b_finefineweb_lowvariance", "task": "arc_easy", "accuracy": 0.23157894736842105, "correct": 132, "total": 570, "timestamp": "2025-08-26T12:07:35.718473"}
+{"model": "niu_1B_100b_finefineweb_lowvariance", "task": "arc_easy", "accuracy": 0.20350877192982456, "correct": 116, "total": 570, "timestamp": "2025-08-26T12:08:25.101998"}

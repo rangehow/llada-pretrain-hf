@@ -1,0 +1,28 @@
+2025-08-26 12:25:26,340	INFO worker.py:1832 -- Started a local Ray instance. View the dashboard at [1m[32mhttp://127.0.0.1:8265 [39m[22m
+Arguments: Namespace(model_name_or_path='/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/diffusion/model_output/llama_1B_100b_finefineweb/checkpoint-201000', model_type='causal', tasks='arc_easy', batch_size=32, limit=0, output_dir='evaluation_results', num_workers=4, trust_remote_code=True)
+Results will be saved to: evaluation_results/llama_1B_100b_finefineweb
+Model short name: llama_1B_100b_finefineweb
+Found 2 GPUs. Creating one actor per GPU.
+
+----- Starting evaluation for task: arc_easy -----
+Processing task: arc_easy (Logprob Mode)
+> /mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion/logprob_eval/main.py(386)main()
+-> results, group_results = evaluate_dataset_ray(
+(Pdb) *** SyntaxError: unterminated string literal (detected at line 1)
+(Pdb) *** SyntaxError: unterminated string literal (detected at line 1)
+(Pdb) *** NameError: name 'tokenizer' is not defined
+(Pdb) '[unused0]Which technology was developed most recently?\n\nA. cellular telephone\nB. television\nC. refrigerator\nD. airplane\n\nAnswer: A'
+(Pdb) 
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion/logprob_eval/main.py", line 448, in <module>
+    main()
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion/logprob_eval/main.py", line 386, in main
+    results, group_results = evaluate_dataset_ray(
+                             ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/miniforge3/envs/sglang/lib/python3.12/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/miniforge3/envs/sglang/lib/python3.12/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit

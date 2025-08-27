@@ -1,0 +1,35 @@
+2025-08-25 10:55:45,166	INFO worker.py:1832 -- Started a local Ray instance. View the dashboard at [1m[32mhttp://127.0.0.1:8265 [39m[22m
+Arguments: Namespace(model_name_or_path='/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/diffusion/model_output/niu_400M_finefineweb/checkpoint-309339', model_type='causal', tasks='arc_easy', batch_size=32, limit=0, output_dir='evaluation_results', num_workers=4, trust_remote_code=True)
+Found 2 GPUs. Creating one actor per GPU.
+
+----- Starting evaluation for task: arc_easy -----
+Processing task: arc_easy (Logprob Mode)
+[arc_easy] Expanding for logprob evaluation: 100%|██████████| 570/570 [00:00<?, ? examples/s][arc_easy] Expanding for logprob evaluation: 1140 examples [00:00, 2805.25 examples/s]       [arc_easy] Expanding for logprob evaluation: 1140 examples [00:00, 2656.13 examples/s]
+Starting Ray evaluation on 2281 samples with 2 GPUs...
+Distributing batches to GPUs:   0%|          | 0/72 [00:00<?, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Distributing batches to GPUs:  42%|████▏     | 30/72 [00:00<00:00, 296.23it/s]Distributing batches to GPUs: 100%|██████████| 72/72 [00:00<00:00, 397.77it/s]
+Collecting results from GPUs:   0%|          | 0/72 [00:00<?, ?it/s]Collecting results from GPUs:   1%|▏         | 1/72 [00:17<20:38, 17.44s/it]Collecting results from GPUs:  10%|▉         | 7/72 [00:17<01:59,  1.84s/it]Collecting results from GPUs:  19%|█▉        | 14/72 [00:17<00:43,  1.34it/s]Collecting results from GPUs:  29%|██▉       | 21/72 [00:17<00:20,  2.44it/s]Collecting results from GPUs:  39%|███▉      | 28/72 [00:17<00:11,  3.95it/s]Collecting results from GPUs:  49%|████▊     | 35/72 [00:17<00:06,  6.00it/s]Collecting results from GPUs:  58%|█████▊    | 42/72 [00:18<00:03,  8.68it/s]Collecting results from GPUs:  68%|██████▊   | 49/72 [00:18<00:01, 12.14it/s]Collecting results from GPUs:  78%|███████▊  | 56/72 [00:18<00:00, 16.35it/s]Collecting results from GPUs:  88%|████████▊ | 63/72 [00:18<00:00, 21.47it/s]Collecting results from GPUs:  97%|█████████▋| 70/72 [00:18<00:00, 26.93it/s]Collecting results from GPUs: 100%|██████████| 72/72 [00:18<00:00,  3.88it/s]
+[36m(Evaluator pid=75942)[0m 🚨 `causal` is part of ModernBertModel.forward's signature, but not documented. Make sure to add it to the docstring of the function in /mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/.cache/modules/transformers_modules/checkpoint-309339/modeling_niu.py.
+[36m(Evaluator pid=75942)[0m Automatically determined corrector_loss_weight: 15.62
+
+=== ARC_EASY Evaluation Results ===
+Model: /mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/diffusion/model_output/niu_400M_finefineweb/checkpoint-309339
+Accuracy: 0.2316 (23.16%) (132/570)
+Results for task arc_easy saved to evaluation_results/_mnt_dolphinfs_ssd_pool_docker_user_hadoop-aipnlp_ruanjunhao04_diffusion_model_output_niu_400M_finefineweb_checkpoint-309339__arc_easy.json
+[36m(Evaluator pid=75945)[0m 🚨 `causal` is part of ModernBertModel.forward's signature, but not documented. Make sure to add it to the docstring of the function in /mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/.cache/modules/transformers_modules/checkpoint-309339/modeling_niu.py.
+[36m(Evaluator pid=75945)[0m Automatically determined corrector_loss_weight: 15.62

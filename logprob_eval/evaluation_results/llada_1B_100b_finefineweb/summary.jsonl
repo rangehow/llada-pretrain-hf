@@ -1,0 +1,1 @@
+{"model": "llada_1B_100b_finefineweb", "task": "arc_easy", "accuracy": 0.2596491228070175, "correct": 148, "total": 570, "timestamp": "2025-08-26T12:11:07.329455"}

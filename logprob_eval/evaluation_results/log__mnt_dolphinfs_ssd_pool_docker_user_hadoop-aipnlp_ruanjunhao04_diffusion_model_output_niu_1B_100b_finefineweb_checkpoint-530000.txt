@@ -1,0 +1,169 @@
+2025-08-25 11:22:10,151	INFO worker.py:1832 -- Started a local Ray instance. View the dashboard at [1m[32mhttp://127.0.0.1:8265 [39m[22m
+Arguments: Namespace(model_name_or_path='/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/diffusion/model_output/niu_1B_100b_finefineweb/checkpoint-530000', model_type='causal', tasks='arc_easy', batch_size=32, limit=0, output_dir='evaluation_results', num_workers=4, trust_remote_code=True)
+Found 2 GPUs. Creating one actor per GPU.
+
+----- Starting evaluation for task: arc_easy -----
+Processing task: arc_easy (Logprob Mode)
+[arc_easy] Expanding for logprob evaluation:   0%|          | 0/570 [00:00<?, ? examples/s][arc_easy] Expanding for logprob evaluation: 100%|██████████| 570/570 [00:00<00:00, 2760.76 examples/s][arc_easy] Expanding for logprob evaluation: 100%|██████████| 570/570 [00:00<00:00, 2627.72 examples/s]
+Starting Ray evaluation on 2281 samples with 2 GPUs...
+Distributing batches to GPUs:   0%|          | 0/72 [00:00<?, ?it/s]huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Distributing batches to GPUs:  38%|███▊      | 27/72 [00:00<00:00, 268.92it/s]Distributing batches to GPUs: 100%|██████████| 72/72 [00:00<00:00, 383.86it/s]
+Collecting results from GPUs:   0%|          | 0/72 [00:00<?, ?it/s]Collecting results from GPUs:   0%|          | 0/72 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion/logprob_eval/main.py", line 421, in <module>
+    main()
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion/logprob_eval/main.py", line 381, in main
+    results, group_results = evaluate_dataset_ray(
+                             ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion/logprob_eval/main.py", line 301, in evaluate_dataset_ray
+    batch_results = ray.get(future)
+                    ^^^^^^^^^^^^^^^
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/miniforge3/envs/sglang/lib/python3.12/site-packages/ray/_private/auto_init_hook.py", line 21, in auto_init_wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/miniforge3/envs/sglang/lib/python3.12/site-packages/ray/_private/client_mode_hook.py", line 103, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/miniforge3/envs/sglang/lib/python3.12/site-packages/ray/_private/worker.py", line 2771, in get
+    values, debugger_breakpoint = worker.get_objects(object_refs, timeout=timeout)
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/miniforge3/envs/sglang/lib/python3.12/site-packages/ray/_private/worker.py", line 921, in get_objects
+    raise value
+ray.exceptions.ActorDiedError: The actor died because of an error raised in its creation task, [36mray::Evaluator.__init__()[39m (pid=135869, ip=10.164.4.195, actor_id=43bcb46f4c5af99ae5aeab6b01000000, repr=<main.Evaluator object at 0x7f17e9177d40>)
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/transformers/src/transformers/models/auto/configuration_auto.py", line 996, in __getitem__
+    raise KeyError(key)
+KeyError: 'niu'
+
+During handling of the above exception, another exception occurred:
+
+[36mray::Evaluator.__init__()[39m (pid=135869, ip=10.164.4.195, actor_id=43bcb46f4c5af99ae5aeab6b01000000, repr=<main.Evaluator object at 0x7f17e9177d40>)
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion/logprob_eval/main.py", line 229, in __init__
+    self.model = AutoModelForCausalLM.from_pretrained(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/transformers/src/transformers/models/auto/auto_factory.py", line 547, in from_pretrained
+    config, kwargs = AutoConfig.from_pretrained(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/transformers/src/transformers/models/auto/configuration_auto.py", line 1303, in from_pretrained
+    raise ValueError(
+ValueError: The checkpoint you are trying to load has model type `niu` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+
+You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+
+During handling of the above exception, another exception occurred:
+
+[36mray::Evaluator.__init__()[39m (pid=135869, ip=10.164.4.195, actor_id=43bcb46f4c5af99ae5aeab6b01000000, repr=<main.Evaluator object at 0x7f17e9177d40>)
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/transformers/src/transformers/models/auto/configuration_auto.py", line 1301, in from_pretrained
+    config_class = CONFIG_MAPPING[config_dict["model_type"]]
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/transformers/src/transformers/models/auto/configuration_auto.py", line 996, in __getitem__
+    raise KeyError(key)
+KeyError: 'niu'
+
+During handling of the above exception, another exception occurred:
+
+[36mray::Evaluator.__init__()[39m (pid=135869, ip=10.164.4.195, actor_id=43bcb46f4c5af99ae5aeab6b01000000, repr=<main.Evaluator object at 0x7f17e9177d40>)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion/logprob_eval/main.py", line 235, in __init__
+    self.model = AutoModel.from_pretrained(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/transformers/src/transformers/models/auto/auto_factory.py", line 547, in from_pretrained
+    config, kwargs = AutoConfig.from_pretrained(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/transformers/src/transformers/models/auto/configuration_auto.py", line 1303, in from_pretrained
+    raise ValueError(
+ValueError: The checkpoint you are trying to load has model type `niu` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+
+You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+[36m(Evaluator pid=135869)[0m Exception raised in creation task: The actor died because of an error raised in its creation task, [36mray::Evaluator.__init__()[39m (pid=135869, ip=10.164.4.195, actor_id=43bcb46f4c5af99ae5aeab6b01000000, repr=<main.Evaluator object at 0x7f17e9177d40>)
+[36m(Evaluator pid=135869)[0m                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[36m(Evaluator pid=135869)[0m   File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/transformers/src/transformers/models/auto/configuration_auto.py", line 996, in __getitem__
+[36m(Evaluator pid=135869)[0m     raise KeyError(key)
+[36m(Evaluator pid=135869)[0m KeyError: 'niu'
+[36m(Evaluator pid=135869)[0m 
+[36m(Evaluator pid=135869)[0m During handling of the above exception, another exception occurred:
+[36m(Evaluator pid=135869)[0m 
+[36m(Evaluator pid=135869)[0m [36mray::Evaluator.__init__()[39m (pid=135869, ip=10.164.4.195, actor_id=43bcb46f4c5af99ae5aeab6b01000000, repr=<main.Evaluator object at 0x7f17e9177d40>)
+[36m(Evaluator pid=135869)[0m   File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion/logprob_eval/main.py", line 229, in __init__
+[36m(Evaluator pid=135869)[0m     self.model = AutoModelForCausalLM.from_pretrained(
+[36m(Evaluator pid=135869)[0m                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[36m(Evaluator pid=135869)[0m   File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/transformers/src/transformers/models/auto/auto_factory.py", line 547, in from_pretrained
+[36m(Evaluator pid=135869)[0m     config, kwargs = AutoConfig.from_pretrained(
+[36m(Evaluator pid=135869)[0m                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[36m(Evaluator pid=135869)[0m   File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/transformers/src/transformers/models/auto/configuration_auto.py", line 1303, in from_pretrained
+[36m(Evaluator pid=135869)[0m     raise ValueError(
+[36m(Evaluator pid=135869)[0m ValueError: The checkpoint you are trying to load has model type `niu` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+[36m(Evaluator pid=135869)[0m 
+[36m(Evaluator pid=135869)[0m You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+[36m(Evaluator pid=135869)[0m 
+[36m(Evaluator pid=135869)[0m During handling of the above exception, another exception occurred:
+[36m(Evaluator pid=135869)[0m 
+[36m(Evaluator pid=135869)[0m [36mray::Evaluator.__init__()[39m (pid=135869, ip=10.164.4.195, actor_id=43bcb46f4c5af99ae5aeab6b01000000, repr=<main.Evaluator object at 0x7f17e9177d40>)
+[36m(Evaluator pid=135869)[0m   File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/transformers/src/transformers/models/auto/configuration_auto.py", line 1301, in from_pretrained
+[36m(Evaluator pid=135869)[0m     config_class = CONFIG_MAPPING[config_dict["model_type"]]
+[36m(Evaluator pid=135869)[0m                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[36m(Evaluator pid=135869)[0m   File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/transformers/src/transformers/models/auto/configuration_auto.py", line 996, in __getitem__
+[36m(Evaluator pid=135869)[0m     raise KeyError(key)
+[36m(Evaluator pid=135869)[0m KeyError: 'niu'
+[36m(Evaluator pid=135869)[0m 
+[36m(Evaluator pid=135869)[0m During handling of the above exception, another exception occurred:
+[36m(Evaluator pid=135869)[0m 
+[36m(Evaluator pid=135869)[0m [36mray::Evaluator.__init__()[39m (pid=135869, ip=10.164.4.195, actor_id=43bcb46f4c5af99ae5aeab6b01000000, repr=<main.Evaluator object at 0x7f17e9177d40>)
+[36m(Evaluator pid=135869)[0m            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[36m(Evaluator pid=135869)[0m            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[36m(Evaluator pid=135869)[0m   File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion/logprob_eval/main.py", line 235, in __init__
+[36m(Evaluator pid=135869)[0m     self.model = AutoModel.from_pretrained(
+[36m(Evaluator pid=135869)[0m                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[36m(Evaluator pid=135869)[0m   File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/transformers/src/transformers/models/auto/auto_factory.py", line 547, in from_pretrained
+[36m(Evaluator pid=135869)[0m     config, kwargs = AutoConfig.from_pretrained(
+[36m(Evaluator pid=135869)[0m                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[36m(Evaluator pid=135869)[0m   File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/transformers/src/transformers/models/auto/configuration_auto.py", line 1303, in from_pretrained
+[36m(Evaluator pid=135869)[0m     raise ValueError(
+[36m(Evaluator pid=135869)[0m ValueError: The checkpoint you are trying to load has model type `niu` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.
+[36m(Evaluator pid=135869)[0m 
+[36m(Evaluator pid=135869)[0m You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`
+[36m(Evaluator pid=135870)[0m 
+[36m(Evaluator pid=135870)[0m 
+[36m(Evaluator pid=135870)[0m 
+[36m(Evaluator pid=135870)[0m 
+[36m(Evaluator pid=135870)[0m 
+[36m(Evaluator pid=135870)[0m 
+[36m(Evaluator pid=135870)[0m 
+[36m(Evaluator pid=135870)[0m 
+[36m(Evaluator pid=135870)[0m Exception raised in creation task: The actor died because of an error raised in its creation task, [36mray::Evaluator.__init__()[39m (pid=135870, ip=10.164.4.195, actor_id=e19e6e179a32ba37715dd27e01000000, repr=<main.Evaluator object at 0x7fc34161deb0>)
+[36m(Evaluator pid=135870)[0m                    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^[32m [repeated 2x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/user-guides/configure-logging.html#log-deduplication for more options.)[0m
+[36m(Evaluator pid=135870)[0m   File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/transformers/src/transformers/models/auto/configuration_auto.py", line 996, in __getitem__[32m [repeated 2x across cluster][0m
+[36m(Evaluator pid=135870)[0m     raise KeyError(key)[32m [repeated 2x across cluster][0m
+[36m(Evaluator pid=135870)[0m KeyError: 'niu'[32m [repeated 2x across cluster][0m
+[36m(Evaluator pid=135870)[0m During handling of the above exception, another exception occurred:[32m [repeated 3x across cluster][0m
+[36m(Evaluator pid=135870)[0m [36mray::Evaluator.__init__()[39m (pid=135870, ip=10.164.4.195, actor_id=e19e6e179a32ba37715dd27e01000000, repr=<main.Evaluator object at 0x7fc34161deb0>)[32m [repeated 3x across cluster][0m
+[36m(Evaluator pid=135870)[0m   File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion/logprob_eval/main.py", line 235, in __init__[32m [repeated 2x across cluster][0m
+[36m(Evaluator pid=135870)[0m     self.model = AutoModelForCausalLM.from_pretrained(
+[36m(Evaluator pid=135870)[0m                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[36m(Evaluator pid=135870)[0m   File "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/transformers/src/transformers/models/auto/configuration_auto.py", line 1303, in from_pretrained[32m [repeated 5x across cluster][0m
+[36m(Evaluator pid=135870)[0m     config, kwargs = AutoConfig.from_pretrained([32m [repeated 2x across cluster][0m
+[36m(Evaluator pid=135870)[0m                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^[32m [repeated 2x across cluster][0m
+[36m(Evaluator pid=135870)[0m     raise ValueError([32m [repeated 2x across cluster][0m
+[36m(Evaluator pid=135870)[0m ValueError: The checkpoint you are trying to load has model type `niu` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.[32m [repeated 2x across cluster][0m
+[36m(Evaluator pid=135870)[0m You can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`[32m [repeated 2x across cluster][0m
+[36m(Evaluator pid=135870)[0m     config_class = CONFIG_MAPPING[config_dict["model_type"]]
+[36m(Evaluator pid=135870)[0m            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[36m(Evaluator pid=135870)[0m            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[36m(Evaluator pid=135870)[0m     self.model = AutoModel.from_pretrained(
+[36m(Evaluator pid=135870)[0m                  ^^^^^^^^^^^^^^^^^^^^^^^^^^

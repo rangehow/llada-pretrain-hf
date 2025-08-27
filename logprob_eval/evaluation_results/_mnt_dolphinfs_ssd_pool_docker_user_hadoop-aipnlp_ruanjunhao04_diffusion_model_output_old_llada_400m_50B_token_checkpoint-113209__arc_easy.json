@@ -1,0 +1,11425 @@
+{
+  "model_name": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/diffusion/model_output_old/llada_400m_50B_token/checkpoint-113209",
+  "model_type": "masked",
+  "task": "arc_easy",
+  "accuracy": 0.23684210526315788,
+  "correct_predictions": 135,
+  "total_questions": 570,
+  "args": {
+    "model_name_or_path": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/diffusion/model_output_old/llada_400m_50B_token/checkpoint-113209",
+    "model_type": "masked",
+    "tasks": "arc_easy",
+    "batch_size": 32,
+    "limit": 0,
+    "output_dir": "evaluation_results",
+    "num_workers": 4,
+    "trust_remote_code": true
+  },
+  "detailed_results": [
+    {
+      "group_id": 0,
+      "logprob": -3.140625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 0,
+      "logprob": -3.640625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 0,
+      "logprob": -5.15625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 0,
+      "logprob": -5.15625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 1,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 1,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 1,
+      "logprob": -18.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 1,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 2,
+      "logprob": -14.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 2,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 2,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 2,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 3,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 3,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 3,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 3,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 4,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 4,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 4,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 4,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 5,
+      "logprob": -4.46875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 5,
+      "logprob": -4.46875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 5,
+      "logprob": -4.46875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 5,
+      "logprob": -6.46875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 6,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 6,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 6,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 6,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 7,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 7,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 7,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 7,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 8,
+      "logprob": -8.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 8,
+      "logprob": -9.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 8,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 8,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 9,
+      "logprob": -10.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 9,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 9,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 9,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 10,
+      "logprob": -7.03125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 10,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 10,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 10,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 11,
+      "logprob": -7.0625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 11,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 11,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 11,
+      "logprob": -9.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 12,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 12,
+      "logprob": -10.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 12,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 12,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 13,
+      "logprob": -3.046875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 13,
+      "logprob": -3.546875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 13,
+      "logprob": -3.546875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 13,
+      "logprob": -4.53125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 14,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 14,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 14,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 14,
+      "logprob": -12.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 15,
+      "logprob": -3.671875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 15,
+      "logprob": -4.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 15,
+      "logprob": -4.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 15,
+      "logprob": -5.1875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 16,
+      "logprob": -2.984375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 16,
+      "logprob": -4.46875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 16,
+      "logprob": -4.96875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 16,
+      "logprob": -6.46875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 17,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 17,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 17,
+      "logprob": -9.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 17,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 17,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 18,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 18,
+      "logprob": -19.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 18,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 18,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 19,
+      "logprob": -26.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 19,
+      "logprob": -29.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 19,
+      "logprob": -27.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 19,
+      "logprob": -29.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 20,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 20,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 20,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 20,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 21,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 21,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 21,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 21,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 22,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 22,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 22,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 22,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 23,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 23,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 23,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 23,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 24,
+      "logprob": -4.15625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 24,
+      "logprob": -5.65625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 24,
+      "logprob": -5.65625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 24,
+      "logprob": -5.65625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 25,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 25,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 25,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 25,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 26,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 26,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 26,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 26,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 27,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 27,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 27,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 27,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 28,
+      "logprob": -5.65625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 28,
+      "logprob": -7.65625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 28,
+      "logprob": -7.65625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 28,
+      "logprob": -7.15625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 29,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 29,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 29,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 29,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 30,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 30,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 30,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 30,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 31,
+      "logprob": -3.8125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 31,
+      "logprob": -4.8125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 31,
+      "logprob": -5.3125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 31,
+      "logprob": -5.8125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 32,
+      "logprob": -6.59375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 32,
+      "logprob": -8.125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 32,
+      "logprob": -8.125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 32,
+      "logprob": -8.625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 33,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 33,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 33,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 33,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 34,
+      "logprob": -5.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 34,
+      "logprob": -6.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 34,
+      "logprob": -6.28125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 34,
+      "logprob": -6.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 35,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 35,
+      "logprob": -21.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 35,
+      "logprob": -20.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 35,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 36,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 36,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 36,
+      "logprob": -11.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 36,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 37,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 37,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 37,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 37,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 38,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 38,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 38,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 38,
+      "logprob": -18.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 39,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 39,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 39,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 39,
+      "logprob": -6.65625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 40,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 40,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 40,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 40,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 41,
+      "logprob": -10.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 41,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 41,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 41,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 42,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 42,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 42,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 42,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 43,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 43,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 43,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 43,
+      "logprob": -14.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 44,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 44,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 44,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 44,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 45,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 45,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 45,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 45,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 46,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 46,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 46,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 46,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 47,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 47,
+      "logprob": -12.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 47,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 47,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 48,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 48,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 48,
+      "logprob": -12.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 48,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 49,
+      "logprob": -4.375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 49,
+      "logprob": -4.375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 49,
+      "logprob": -4.875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 49,
+      "logprob": -5.875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 50,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 50,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 50,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 50,
+      "logprob": -11.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 51,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 51,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 51,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 51,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 52,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 52,
+      "logprob": -18.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 52,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 52,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 53,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 53,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 53,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 53,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 54,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 54,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 54,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 54,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 55,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 55,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 55,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 55,
+      "logprob": -20.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 56,
+      "logprob": -4.03125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 56,
+      "logprob": -4.53125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 56,
+      "logprob": -5.03125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 56,
+      "logprob": -6.53125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 57,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 57,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 57,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 57,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 58,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 58,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 58,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 58,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 59,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 59,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 59,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 59,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 60,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 60,
+      "logprob": -18.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 60,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 60,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 61,
+      "logprob": -3.71875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 61,
+      "logprob": -4.71875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 61,
+      "logprob": -5.21875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 61,
+      "logprob": -5.71875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 62,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 62,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 62,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 62,
+      "logprob": -20.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 63,
+      "logprob": -7.53125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 63,
+      "logprob": -9.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 63,
+      "logprob": -8.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 63,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 64,
+      "logprob": -12.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 64,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 64,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 64,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 65,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 65,
+      "logprob": -22.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 65,
+      "logprob": -21.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 65,
+      "logprob": -22.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 66,
+      "logprob": -10.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 66,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 66,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 66,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 67,
+      "logprob": -3.96875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 67,
+      "logprob": -4.46875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 67,
+      "logprob": -4.96875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 67,
+      "logprob": -5.96875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 68,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 68,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 68,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 68,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 69,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 69,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 69,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 69,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 70,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 70,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 70,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 70,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 71,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 71,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 71,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 71,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 72,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 72,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 72,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 72,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 73,
+      "logprob": -4.1875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 73,
+      "logprob": -5.1875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 73,
+      "logprob": -5.1875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 73,
+      "logprob": -5.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 74,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 74,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 74,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 74,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 75,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 75,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 75,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 75,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 76,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 76,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 76,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 76,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 77,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 77,
+      "logprob": -23.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 77,
+      "logprob": -22.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 77,
+      "logprob": -23.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 78,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 78,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 78,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 78,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 79,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 79,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 79,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 79,
+      "logprob": -14.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 80,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 80,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 80,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 80,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 81,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 81,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 81,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 81,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 82,
+      "logprob": -4.40625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 82,
+      "logprob": -5.40625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 82,
+      "logprob": -5.40625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 82,
+      "logprob": -5.40625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 83,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 83,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 83,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 83,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 84,
+      "logprob": -3.59375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 84,
+      "logprob": -4.09375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 84,
+      "logprob": -4.09375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 84,
+      "logprob": -5.59375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 85,
+      "logprob": -3.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 85,
+      "logprob": -4.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 85,
+      "logprob": -4.6875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 85,
+      "logprob": -5.1875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 86,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 86,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 86,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 86,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 87,
+      "logprob": -5.21875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 87,
+      "logprob": -6.21875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 87,
+      "logprob": -6.21875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 87,
+      "logprob": -6.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 88,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 88,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 88,
+      "logprob": -10.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 88,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 89,
+      "logprob": -18.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 89,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 89,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 89,
+      "logprob": -21.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 90,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 90,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 90,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 90,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 91,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 91,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 91,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 91,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 92,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 92,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 92,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 92,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 93,
+      "logprob": -8.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 93,
+      "logprob": -10.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 93,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 93,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 94,
+      "logprob": -6.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 94,
+      "logprob": -8.0625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 94,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 94,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 95,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 95,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 95,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 95,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 96,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 96,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 96,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 96,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 97,
+      "logprob": -4.84375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 97,
+      "logprob": -5.84375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 97,
+      "logprob": -6.34375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 97,
+      "logprob": -6.34375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 98,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 98,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 98,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 98,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 99,
+      "logprob": -6.1875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 99,
+      "logprob": -7.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 99,
+      "logprob": -7.6875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 99,
+      "logprob": -9.1875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 100,
+      "logprob": -10.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 100,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 100,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 100,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 101,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 101,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 101,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 101,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 102,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 102,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 102,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 102,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 103,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 103,
+      "logprob": -21.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 103,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 103,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 104,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 104,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 104,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 104,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 105,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 105,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 105,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 105,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 106,
+      "logprob": -8.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 106,
+      "logprob": -10.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 106,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 106,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 107,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 107,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 107,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 107,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 108,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 108,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 108,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 108,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 109,
+      "logprob": -7.53125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 109,
+      "logprob": -9.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 109,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 109,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 110,
+      "logprob": -3.34375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 110,
+      "logprob": -4.84375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 110,
+      "logprob": -4.84375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 110,
+      "logprob": -5.84375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 111,
+      "logprob": -8.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 111,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 111,
+      "logprob": -10.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 111,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 112,
+      "logprob": -22.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 112,
+      "logprob": -23.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 112,
+      "logprob": -22.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 112,
+      "logprob": -23.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 113,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 113,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 113,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 113,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 114,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 114,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 114,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 114,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 115,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 115,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 115,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 115,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 116,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 116,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 116,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 116,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 117,
+      "logprob": -4.125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 117,
+      "logprob": -4.625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 117,
+      "logprob": -4.625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 117,
+      "logprob": -5.125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 118,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 118,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 118,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 118,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 119,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 119,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 119,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 119,
+      "logprob": -19.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 120,
+      "logprob": -2.546875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 120,
+      "logprob": -4.53125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 120,
+      "logprob": -4.03125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 120,
+      "logprob": -5.03125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 121,
+      "logprob": -7.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 121,
+      "logprob": -8.5625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 121,
+      "logprob": -8.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 121,
+      "logprob": -8.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 122,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 122,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 122,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 122,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 123,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 123,
+      "logprob": -22.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 123,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 123,
+      "logprob": -22.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 124,
+      "logprob": -11.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 124,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 124,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 124,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 125,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 125,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 125,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 125,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 126,
+      "logprob": -8.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 126,
+      "logprob": -9.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 126,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 126,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 127,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 127,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 127,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 127,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 128,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 128,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 128,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 128,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 129,
+      "logprob": -3.484375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 129,
+      "logprob": -4.46875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 129,
+      "logprob": -4.96875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 129,
+      "logprob": -5.46875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 130,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 130,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 130,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 130,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 131,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 131,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 131,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 131,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 132,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 132,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 132,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 132,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 133,
+      "logprob": -8.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 133,
+      "logprob": -8.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 133,
+      "logprob": -9.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 133,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 134,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 134,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 134,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 134,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 135,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 135,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 135,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 135,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 136,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 136,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 136,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 136,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 137,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 137,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 137,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 137,
+      "logprob": -14.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 138,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 138,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 138,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 138,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 139,
+      "logprob": -3.75,
+      "is_correct": 0
+    },
+    {
+      "group_id": 139,
+      "logprob": -4.25,
+      "is_correct": 0
+    },
+    {
+      "group_id": 139,
+      "logprob": -4.75,
+      "is_correct": 1
+    },
+    {
+      "group_id": 139,
+      "logprob": -5.75,
+      "is_correct": 0
+    },
+    {
+      "group_id": 140,
+      "logprob": -8.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 140,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 140,
+      "logprob": -9.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 140,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 141,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 141,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 141,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 141,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 142,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 142,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 142,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 142,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 143,
+      "logprob": -5.625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 143,
+      "logprob": -6.625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 143,
+      "logprob": -6.625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 143,
+      "logprob": -7.21875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 144,
+      "logprob": -3.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 144,
+      "logprob": -4.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 144,
+      "logprob": -3.78125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 144,
+      "logprob": -5.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 145,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 145,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 145,
+      "logprob": -10.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 145,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 146,
+      "logprob": -6.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 146,
+      "logprob": -7.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 146,
+      "logprob": -7.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 146,
+      "logprob": -8.0625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 147,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 147,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 147,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 147,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 148,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 148,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 148,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 148,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 149,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 149,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 149,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 149,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 150,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 150,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 150,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 150,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 151,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 151,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 151,
+      "logprob": -9.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 151,
+      "logprob": -9.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 152,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 152,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 152,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 152,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 153,
+      "logprob": -5.625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 153,
+      "logprob": -7.625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 153,
+      "logprob": -7.125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 153,
+      "logprob": -7.125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 154,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 154,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 154,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 154,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 155,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 155,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 155,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 155,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 156,
+      "logprob": -3.796875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 156,
+      "logprob": -5.3125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 156,
+      "logprob": -5.8125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 156,
+      "logprob": -6.8125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 157,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 157,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 157,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 157,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 158,
+      "logprob": -8.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 158,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 158,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 158,
+      "logprob": -9.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 159,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 159,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 159,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 159,
+      "logprob": -12.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 160,
+      "logprob": -3.609375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 160,
+      "logprob": -4.09375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 160,
+      "logprob": -4.59375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 160,
+      "logprob": -5.59375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 161,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 161,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 161,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 161,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 162,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 162,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 162,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 162,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 163,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 163,
+      "logprob": -12.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 163,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 163,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 164,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 164,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 164,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 164,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 165,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 165,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 165,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 165,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 166,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 166,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 166,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 166,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 167,
+      "logprob": -5.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 167,
+      "logprob": -6.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 167,
+      "logprob": -6.28125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 167,
+      "logprob": -6.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 168,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 168,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 168,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 168,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 169,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 169,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 169,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 169,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 170,
+      "logprob": -9.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 170,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 170,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 170,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 171,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 171,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 171,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 171,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 172,
+      "logprob": -3.46875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 172,
+      "logprob": -3.46875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 172,
+      "logprob": -4.96875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 172,
+      "logprob": -4.96875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 173,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 173,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 173,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 173,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 174,
+      "logprob": -5.78125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 174,
+      "logprob": -7.28125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 174,
+      "logprob": -7.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 174,
+      "logprob": -7.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 175,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 175,
+      "logprob": -12.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 175,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 175,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 176,
+      "logprob": -3.546875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 176,
+      "logprob": -5.03125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 176,
+      "logprob": -3.546875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 176,
+      "logprob": -5.03125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 177,
+      "logprob": -8.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 177,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 177,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 177,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 178,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 178,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 178,
+      "logprob": -12.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 178,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 179,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 179,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 179,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 179,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 180,
+      "logprob": -6.1875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 180,
+      "logprob": -7.1875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 180,
+      "logprob": -7.1875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 180,
+      "logprob": -7.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 181,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 181,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 181,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 181,
+      "logprob": -20.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 182,
+      "logprob": -9.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 182,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 182,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 182,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 183,
+      "logprob": -20.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 183,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 183,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 183,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 184,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 184,
+      "logprob": -21.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 184,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 184,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 185,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 185,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 185,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 185,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 186,
+      "logprob": -20.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 186,
+      "logprob": -22.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 186,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 186,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 187,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 187,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 187,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 187,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 188,
+      "logprob": -7.03125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 188,
+      "logprob": -9.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 188,
+      "logprob": -8.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 188,
+      "logprob": -9.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 189,
+      "logprob": -2.921875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 189,
+      "logprob": -4.90625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 189,
+      "logprob": -4.90625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 189,
+      "logprob": -6.40625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 190,
+      "logprob": -3.765625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 190,
+      "logprob": -4.78125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 190,
+      "logprob": -5.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 190,
+      "logprob": -5.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 191,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 191,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 191,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 191,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 192,
+      "logprob": -3.359375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 192,
+      "logprob": -3.859375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 192,
+      "logprob": -4.375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 192,
+      "logprob": -5.875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 193,
+      "logprob": -3.890625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 193,
+      "logprob": -4.40625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 193,
+      "logprob": -4.40625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 193,
+      "logprob": -4.90625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 194,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 194,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 194,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 194,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 195,
+      "logprob": -9.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 195,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 195,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 195,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 196,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 196,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 196,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 196,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 197,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 197,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 197,
+      "logprob": -18.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 197,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 198,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 198,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 198,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 198,
+      "logprob": -18.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 199,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 199,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 199,
+      "logprob": -12.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 199,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 200,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 200,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 200,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 200,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 201,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 201,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 201,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 201,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 202,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 202,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 202,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 202,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 203,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 203,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 203,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 203,
+      "logprob": -18.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 204,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 204,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 204,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 204,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 205,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 205,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 205,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 205,
+      "logprob": -11.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 206,
+      "logprob": -3.734375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 206,
+      "logprob": -5.25,
+      "is_correct": 1
+    },
+    {
+      "group_id": 206,
+      "logprob": -5.25,
+      "is_correct": 0
+    },
+    {
+      "group_id": 206,
+      "logprob": -6.75,
+      "is_correct": 0
+    },
+    {
+      "group_id": 207,
+      "logprob": -8.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 207,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 207,
+      "logprob": -9.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 207,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 208,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 208,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 208,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 208,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 209,
+      "logprob": -3.84375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 209,
+      "logprob": -5.84375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 209,
+      "logprob": -4.84375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 209,
+      "logprob": -5.84375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 210,
+      "logprob": -20.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 210,
+      "logprob": -23.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 210,
+      "logprob": -22.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 210,
+      "logprob": -23.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 211,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 211,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 211,
+      "logprob": -12.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 211,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 212,
+      "logprob": -11.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 212,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 212,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 212,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 213,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 213,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 213,
+      "logprob": -18.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 213,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 214,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 214,
+      "logprob": -22.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 214,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 214,
+      "logprob": -22.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 215,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 215,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 215,
+      "logprob": -10.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 215,
+      "logprob": -22.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 216,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 216,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 216,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 216,
+      "logprob": -18.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 217,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 217,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 217,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 217,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 218,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 218,
+      "logprob": -18.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 218,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 218,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 219,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 219,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 219,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 219,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 220,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 220,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 220,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 220,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 221,
+      "logprob": -14.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 221,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 221,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 221,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 222,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 222,
+      "logprob": -23.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 222,
+      "logprob": -22.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 222,
+      "logprob": -22.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 223,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 223,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 223,
+      "logprob": -14.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 223,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 224,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 224,
+      "logprob": -9.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 224,
+      "logprob": -8.0625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 224,
+      "logprob": -9.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 225,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 225,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 225,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 225,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 226,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 226,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 226,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 226,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 227,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 227,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 227,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 227,
+      "logprob": -19.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 228,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 228,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 228,
+      "logprob": -12.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 228,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 229,
+      "logprob": -5.65625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 229,
+      "logprob": -7.15625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 229,
+      "logprob": -6.65625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 229,
+      "logprob": -7.15625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 230,
+      "logprob": -3.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 230,
+      "logprob": -4.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 230,
+      "logprob": -5.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 230,
+      "logprob": -5.5625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 231,
+      "logprob": -12.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 231,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 231,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 231,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 232,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 232,
+      "logprob": -12.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 232,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 232,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 233,
+      "logprob": -6.59375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 233,
+      "logprob": -7.59375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 233,
+      "logprob": -7.59375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 233,
+      "logprob": -8.625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 234,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 234,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 234,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 234,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 235,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 235,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 235,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 235,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 236,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 236,
+      "logprob": -12.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 236,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 236,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 237,
+      "logprob": -3.40625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 237,
+      "logprob": -3.40625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 237,
+      "logprob": -3.90625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 237,
+      "logprob": -4.90625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 238,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 238,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 238,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 238,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 239,
+      "logprob": -12.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 239,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 239,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 239,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 240,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 240,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 240,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 240,
+      "logprob": -21.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 241,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 241,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 241,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 241,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 242,
+      "logprob": -8.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 242,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 242,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 242,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 243,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 243,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 243,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 243,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 244,
+      "logprob": -5.78125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 244,
+      "logprob": -7.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 244,
+      "logprob": -6.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 244,
+      "logprob": -7.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 245,
+      "logprob": -3.796875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 245,
+      "logprob": -4.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 245,
+      "logprob": -4.78125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 245,
+      "logprob": -5.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 246,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 246,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 246,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 246,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 247,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 247,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 247,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 247,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 248,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 248,
+      "logprob": -21.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 248,
+      "logprob": -19.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 248,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 249,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 249,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 249,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 249,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 250,
+      "logprob": -4.59375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 250,
+      "logprob": -4.59375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 250,
+      "logprob": -5.59375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 250,
+      "logprob": -6.09375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 251,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 251,
+      "logprob": -20.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 251,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 251,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 252,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 252,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 252,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 252,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 253,
+      "logprob": -10.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 253,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 253,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 253,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 254,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 254,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 254,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 254,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 255,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 255,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 255,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 255,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 256,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 256,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 256,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 256,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 257,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 257,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 257,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 257,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 258,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 258,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 258,
+      "logprob": -14.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 258,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 259,
+      "logprob": -21.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 259,
+      "logprob": -24.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 259,
+      "logprob": -22.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 259,
+      "logprob": -23.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 260,
+      "logprob": -5.21875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 260,
+      "logprob": -6.21875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 260,
+      "logprob": -6.71875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 260,
+      "logprob": -6.71875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 261,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 261,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 261,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 261,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 262,
+      "logprob": -7.03125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 262,
+      "logprob": -9.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 262,
+      "logprob": -8.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 262,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 263,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 263,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 263,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 263,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 264,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 264,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 264,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 264,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 265,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 265,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 265,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 265,
+      "logprob": -11.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 266,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 266,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 266,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 266,
+      "logprob": -18.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 267,
+      "logprob": -3.515625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 267,
+      "logprob": -3.515625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 267,
+      "logprob": -4.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 267,
+      "logprob": -6.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 268,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 268,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 268,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 268,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 269,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 269,
+      "logprob": -12.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 269,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 269,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 270,
+      "logprob": -7.53125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 270,
+      "logprob": -8.5625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 270,
+      "logprob": -9.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 270,
+      "logprob": -9.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 271,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 271,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 271,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 271,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 272,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 272,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 272,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 272,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 273,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 273,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 273,
+      "logprob": -10.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 273,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 274,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 274,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 274,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 274,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 275,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 275,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 275,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 275,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 276,
+      "logprob": -6.59375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 276,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 276,
+      "logprob": -7.09375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 276,
+      "logprob": -7.59375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 277,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 277,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 277,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 277,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 278,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 278,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 278,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 278,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 279,
+      "logprob": -2.890625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 279,
+      "logprob": -4.375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 279,
+      "logprob": -2.890625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 279,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 280,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 280,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 280,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 280,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 281,
+      "logprob": -7.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 281,
+      "logprob": -7.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 281,
+      "logprob": -7.5625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 281,
+      "logprob": -8.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 282,
+      "logprob": -9.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 282,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 282,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 282,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 283,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 283,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 283,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 283,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 284,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 284,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 284,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 284,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 285,
+      "logprob": -22.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 285,
+      "logprob": -25.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 285,
+      "logprob": -24.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 285,
+      "logprob": -24.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 286,
+      "logprob": -3.578125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 286,
+      "logprob": -5.0625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 286,
+      "logprob": -6.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 286,
+      "logprob": -6.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 287,
+      "logprob": -5.65625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 287,
+      "logprob": -7.65625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 287,
+      "logprob": -7.15625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 287,
+      "logprob": -6.75,
+      "is_correct": 0
+    },
+    {
+      "group_id": 288,
+      "logprob": -4.1875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 288,
+      "logprob": -4.1875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 288,
+      "logprob": -4.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 288,
+      "logprob": -4.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 289,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 289,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 289,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 289,
+      "logprob": -11.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 290,
+      "logprob": -20.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 290,
+      "logprob": -22.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 290,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 290,
+      "logprob": -22.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 291,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 291,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 291,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 291,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 292,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 292,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 292,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 292,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 293,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 293,
+      "logprob": -22.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 293,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 293,
+      "logprob": -21.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 294,
+      "logprob": -4.8125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 294,
+      "logprob": -5.8125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 294,
+      "logprob": -6.3125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 294,
+      "logprob": -6.3125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 295,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 295,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 295,
+      "logprob": -18.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 295,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 296,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 296,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 296,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 296,
+      "logprob": -14.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 297,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 297,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 297,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 297,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 298,
+      "logprob": -3.71875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 298,
+      "logprob": -3.71875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 298,
+      "logprob": -4.21875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 298,
+      "logprob": -5.21875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 299,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 299,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 299,
+      "logprob": -18.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 299,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 300,
+      "logprob": -5.25,
+      "is_correct": 1
+    },
+    {
+      "group_id": 300,
+      "logprob": -6.25,
+      "is_correct": 0
+    },
+    {
+      "group_id": 300,
+      "logprob": -6.25,
+      "is_correct": 0
+    },
+    {
+      "group_id": 300,
+      "logprob": -6.25,
+      "is_correct": 0
+    },
+    {
+      "group_id": 301,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 301,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 301,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 301,
+      "logprob": -21.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 302,
+      "logprob": -4.3125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 302,
+      "logprob": -4.3125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 302,
+      "logprob": -5.3125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 302,
+      "logprob": -5.8125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 303,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 303,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 303,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 303,
+      "logprob": -18.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 304,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 304,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 304,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 304,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 305,
+      "logprob": -3.296875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 305,
+      "logprob": -3.796875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 305,
+      "logprob": -4.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 305,
+      "logprob": -4.78125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 306,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 306,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 306,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 306,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 307,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 307,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 307,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 307,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 308,
+      "logprob": -3.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 308,
+      "logprob": -4.5625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 308,
+      "logprob": -4.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 308,
+      "logprob": -4.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 309,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 309,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 309,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 309,
+      "logprob": -18.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 310,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 310,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 310,
+      "logprob": -14.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 310,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 311,
+      "logprob": -12.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 311,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 311,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 311,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 312,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 312,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 312,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 312,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 313,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 313,
+      "logprob": -18.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 313,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 313,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 314,
+      "logprob": -5.59375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 314,
+      "logprob": -5.59375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 314,
+      "logprob": -6.09375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 314,
+      "logprob": -8.125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 315,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 315,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 315,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 315,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 316,
+      "logprob": -22.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 316,
+      "logprob": -24.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 316,
+      "logprob": -22.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 316,
+      "logprob": -23.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 317,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 317,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 317,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 317,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 318,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 318,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 318,
+      "logprob": -12.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 318,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 319,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 319,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 319,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 319,
+      "logprob": -5.25,
+      "is_correct": 1
+    },
+    {
+      "group_id": 320,
+      "logprob": -3.515625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 320,
+      "logprob": -4.03125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 320,
+      "logprob": -4.53125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 320,
+      "logprob": -5.03125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 321,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 321,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 321,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 321,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 322,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 322,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 322,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 322,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 323,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 323,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 323,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 323,
+      "logprob": -12.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 324,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 324,
+      "logprob": -11.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 324,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 324,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 325,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 325,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 325,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 325,
+      "logprob": -19.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 326,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 326,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 326,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 326,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 327,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 327,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 327,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 327,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 328,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 328,
+      "logprob": -20.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 328,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 328,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 329,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 329,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 329,
+      "logprob": -14.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 329,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 330,
+      "logprob": -5.28125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 330,
+      "logprob": -6.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 330,
+      "logprob": -6.78125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 330,
+      "logprob": -7.28125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 331,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 331,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 331,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 331,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 332,
+      "logprob": -3.953125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 332,
+      "logprob": -5.4375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 332,
+      "logprob": -4.9375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 332,
+      "logprob": -5.9375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 333,
+      "logprob": -4.90625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 333,
+      "logprob": -6.40625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 333,
+      "logprob": -6.40625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 333,
+      "logprob": -6.90625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 334,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 334,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 334,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 334,
+      "logprob": -12.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 335,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 335,
+      "logprob": -11.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 335,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 335,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 336,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 336,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 336,
+      "logprob": -22.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 336,
+      "logprob": -22.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 337,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 337,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 337,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 337,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 338,
+      "logprob": -5.25,
+      "is_correct": 0
+    },
+    {
+      "group_id": 338,
+      "logprob": -6.75,
+      "is_correct": 0
+    },
+    {
+      "group_id": 338,
+      "logprob": -6.25,
+      "is_correct": 1
+    },
+    {
+      "group_id": 338,
+      "logprob": -8.25,
+      "is_correct": 0
+    },
+    {
+      "group_id": 339,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 339,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 339,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 339,
+      "logprob": -12.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 340,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 340,
+      "logprob": -21.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 340,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 340,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 341,
+      "logprob": -5.125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 341,
+      "logprob": -6.625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 341,
+      "logprob": -6.625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 341,
+      "logprob": -6.625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 342,
+      "logprob": -6.125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 342,
+      "logprob": -7.625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 342,
+      "logprob": -7.125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 342,
+      "logprob": -7.625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 343,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 343,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 343,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 343,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 344,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 344,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 344,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 344,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 345,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 345,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 345,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 345,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 346,
+      "logprob": -5.71875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 346,
+      "logprob": -6.71875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 346,
+      "logprob": -6.21875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 346,
+      "logprob": -7.21875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 347,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 347,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 347,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 347,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 348,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 348,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 348,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 348,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 349,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 349,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 349,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 349,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 350,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 350,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 350,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 350,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 351,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 351,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 351,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 351,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 352,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 352,
+      "logprob": -21.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 352,
+      "logprob": -20.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 352,
+      "logprob": -21.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 353,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 353,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 353,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 353,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 354,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 354,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 354,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 354,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 355,
+      "logprob": -11.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 355,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 355,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 355,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 356,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 356,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 356,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 356,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 357,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 357,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 357,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 357,
+      "logprob": -18.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 358,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 358,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 358,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 358,
+      "logprob": -10.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 359,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 359,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 359,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 359,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 360,
+      "logprob": -5.09375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 360,
+      "logprob": -5.59375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 360,
+      "logprob": -6.59375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 360,
+      "logprob": -7.09375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 361,
+      "logprob": -8.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 361,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 361,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 361,
+      "logprob": -10.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 362,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 362,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 362,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 362,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 363,
+      "logprob": -8.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 363,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 363,
+      "logprob": -9.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 363,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 364,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 364,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 364,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 364,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 365,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 365,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 365,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 365,
+      "logprob": -18.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 366,
+      "logprob": -5.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 366,
+      "logprob": -6.6875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 366,
+      "logprob": -6.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 366,
+      "logprob": -7.1875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 367,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 367,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 367,
+      "logprob": -19.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 368,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 368,
+      "logprob": -20.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 368,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 368,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 369,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 369,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 369,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 369,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 370,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 370,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 370,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 370,
+      "logprob": -19.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 371,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 371,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 371,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 371,
+      "logprob": -18.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 372,
+      "logprob": -7.03125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 372,
+      "logprob": -8.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 372,
+      "logprob": -9.0625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 372,
+      "logprob": -9.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 373,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 373,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 373,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 373,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 374,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 374,
+      "logprob": -18.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 374,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 374,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 375,
+      "logprob": -5.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 375,
+      "logprob": -5.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 375,
+      "logprob": -7.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 375,
+      "logprob": -7.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 376,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 376,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 376,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 376,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 377,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 377,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 377,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 377,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 378,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 378,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 378,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 378,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 379,
+      "logprob": -7.53125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 379,
+      "logprob": -8.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 379,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 379,
+      "logprob": -9.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 380,
+      "logprob": -3.796875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 380,
+      "logprob": -4.3125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 380,
+      "logprob": -4.8125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 380,
+      "logprob": -6.3125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 381,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 381,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 381,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 381,
+      "logprob": -9.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 382,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 382,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 382,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 382,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 383,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 383,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 383,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 383,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 384,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 384,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 384,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 384,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 385,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 385,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 385,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 385,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 386,
+      "logprob": -14.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 386,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 386,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 386,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 387,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 387,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 387,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 387,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 388,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 388,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 388,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 388,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 389,
+      "logprob": -7.53125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 389,
+      "logprob": -9.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 389,
+      "logprob": -8.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 389,
+      "logprob": -8.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 390,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 390,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 390,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 390,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 391,
+      "logprob": -4.875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 391,
+      "logprob": -6.375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 391,
+      "logprob": -6.875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 391,
+      "logprob": -6.875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 392,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 392,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 392,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 392,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 393,
+      "logprob": -8.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 393,
+      "logprob": -10.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 393,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 393,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 394,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 394,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 394,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 394,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 395,
+      "logprob": -4.15625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 395,
+      "logprob": -5.65625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 395,
+      "logprob": -6.15625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 395,
+      "logprob": -7.15625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 396,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 396,
+      "logprob": -18.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 396,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 396,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 397,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 397,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 397,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 397,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 398,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 398,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 398,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 398,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 399,
+      "logprob": -18.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 399,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 399,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 399,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 400,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 400,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 400,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 400,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 401,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 401,
+      "logprob": -18.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 401,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 401,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 402,
+      "logprob": -10.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 402,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 402,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 402,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 403,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 403,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 403,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 403,
+      "logprob": -20.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 404,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 404,
+      "logprob": -14.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 404,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 404,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 405,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 405,
+      "logprob": -22.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 405,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 405,
+      "logprob": -21.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 406,
+      "logprob": -4.15625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 406,
+      "logprob": -5.65625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 406,
+      "logprob": -5.15625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 406,
+      "logprob": -5.15625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 407,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 407,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 407,
+      "logprob": -10.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 407,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 408,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 408,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 408,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 408,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 409,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 409,
+      "logprob": -22.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 409,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 409,
+      "logprob": -22.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 410,
+      "logprob": -23.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 410,
+      "logprob": -26.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 410,
+      "logprob": -24.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 410,
+      "logprob": -26.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 411,
+      "logprob": -3.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 411,
+      "logprob": -5.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 411,
+      "logprob": -5.6875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 411,
+      "logprob": -5.1875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 412,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 412,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 412,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 412,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 413,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 413,
+      "logprob": -14.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 413,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 413,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 414,
+      "logprob": -7.03125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 414,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 414,
+      "logprob": -8.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 414,
+      "logprob": -8.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 415,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 415,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 415,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 415,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 416,
+      "logprob": -12.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 416,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 416,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 416,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 417,
+      "logprob": -4.125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 417,
+      "logprob": -4.625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 417,
+      "logprob": -5.125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 417,
+      "logprob": -6.625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 418,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 418,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 418,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 418,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 419,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 419,
+      "logprob": -12.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 419,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 419,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 420,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 420,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 420,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 420,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 421,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 421,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 421,
+      "logprob": -12.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 421,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 422,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 422,
+      "logprob": -18.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 422,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 422,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 423,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 423,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 423,
+      "logprob": -14.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 423,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 424,
+      "logprob": -6.15625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 424,
+      "logprob": -7.15625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 424,
+      "logprob": -7.15625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 424,
+      "logprob": -7.15625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 425,
+      "logprob": -3.796875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 425,
+      "logprob": -4.3125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 425,
+      "logprob": -4.8125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 425,
+      "logprob": -5.3125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 426,
+      "logprob": -3.375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 426,
+      "logprob": -3.875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 426,
+      "logprob": -4.375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 426,
+      "logprob": -4.875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 427,
+      "logprob": -20.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 427,
+      "logprob": -22.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 427,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 427,
+      "logprob": -21.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 428,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 428,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 428,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 428,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 429,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 429,
+      "logprob": -22.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 429,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 429,
+      "logprob": -22.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 430,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 430,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 430,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 430,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 431,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 431,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 431,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 431,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 432,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 432,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 432,
+      "logprob": -14.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 432,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 433,
+      "logprob": -7.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 433,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 433,
+      "logprob": -7.0625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 433,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 434,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 434,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 434,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 434,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 435,
+      "logprob": -4.78125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 435,
+      "logprob": -5.78125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 435,
+      "logprob": -4.78125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 435,
+      "logprob": -5.28125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 436,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 436,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 436,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 436,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 437,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 437,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 437,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 437,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 438,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 438,
+      "logprob": -21.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 438,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 438,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 438,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 439,
+      "logprob": -7.0625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 439,
+      "logprob": -7.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 439,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 439,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 440,
+      "logprob": -6.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 440,
+      "logprob": -6.5625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 440,
+      "logprob": -7.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 440,
+      "logprob": -9.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 441,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 441,
+      "logprob": -21.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 441,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 441,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 442,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 442,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 442,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 442,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 443,
+      "logprob": -3.765625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 443,
+      "logprob": -4.75,
+      "is_correct": 0
+    },
+    {
+      "group_id": 443,
+      "logprob": -4.75,
+      "is_correct": 1
+    },
+    {
+      "group_id": 443,
+      "logprob": -5.75,
+      "is_correct": 0
+    },
+    {
+      "group_id": 444,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 444,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 444,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 444,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 445,
+      "logprob": -2.34375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 445,
+      "logprob": -3.34375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 445,
+      "logprob": -4.34375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 445,
+      "logprob": -4.34375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 446,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 446,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 446,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 446,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 447,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 447,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 447,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 447,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 448,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 448,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 448,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 448,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 449,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 449,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 449,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 449,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 450,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 450,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 450,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 450,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 451,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 451,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 451,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 451,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 452,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 452,
+      "logprob": -22.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 452,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 452,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 453,
+      "logprob": -4.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 453,
+      "logprob": -4.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 453,
+      "logprob": -4.5625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 453,
+      "logprob": -5.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 454,
+      "logprob": -3.3125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 454,
+      "logprob": -4.3125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 454,
+      "logprob": -4.3125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 454,
+      "logprob": -5.8125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 455,
+      "logprob": -8.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 455,
+      "logprob": -9.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 455,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 455,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 456,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 456,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 456,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 456,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 457,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 457,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 457,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 457,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 458,
+      "logprob": -7.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 458,
+      "logprob": -8.0625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 458,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 458,
+      "logprob": -9.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 459,
+      "logprob": -3.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 459,
+      "logprob": -4.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 459,
+      "logprob": -4.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 459,
+      "logprob": -5.5625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 460,
+      "logprob": -21.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 460,
+      "logprob": -23.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 460,
+      "logprob": -22.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 460,
+      "logprob": -23.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 461,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 461,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 461,
+      "logprob": -10.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 461,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 462,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 462,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 462,
+      "logprob": -9.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 462,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 463,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 463,
+      "logprob": -22.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 463,
+      "logprob": -21.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 463,
+      "logprob": -21.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 464,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 464,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 464,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 464,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 465,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 465,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 465,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 465,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 466,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 466,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 466,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 466,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 467,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 467,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 467,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 467,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 468,
+      "logprob": -4.53125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 468,
+      "logprob": -5.03125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 468,
+      "logprob": -6.03125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 468,
+      "logprob": -6.53125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 469,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 469,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 469,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 469,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 470,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 470,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 470,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 470,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 471,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 471,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 471,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 471,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 472,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 472,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 472,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 472,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 473,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 473,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 473,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 473,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 474,
+      "logprob": -5.3125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 474,
+      "logprob": -6.3125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 474,
+      "logprob": -6.8125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 474,
+      "logprob": -6.8125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 475,
+      "logprob": -6.09375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 475,
+      "logprob": -7.09375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 475,
+      "logprob": -7.09375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 475,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 476,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 476,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 476,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 476,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 477,
+      "logprob": -5.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 477,
+      "logprob": -7.1875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 477,
+      "logprob": -7.1875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 477,
+      "logprob": -7.1875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 478,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 478,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 478,
+      "logprob": -10.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 478,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 479,
+      "logprob": -4.65625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 479,
+      "logprob": -4.65625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 479,
+      "logprob": -5.15625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 479,
+      "logprob": -6.15625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 480,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 480,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 480,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 480,
+      "logprob": -10.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 481,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 481,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 481,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 481,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 482,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 482,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 482,
+      "logprob": -14.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 482,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 483,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 483,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 483,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 483,
+      "logprob": -18.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 484,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 484,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 484,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 484,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 485,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 485,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 485,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 485,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 486,
+      "logprob": -6.59375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 486,
+      "logprob": -7.59375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 486,
+      "logprob": -7.59375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 486,
+      "logprob": -7.59375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 487,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 487,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 487,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 487,
+      "logprob": -5.9375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 488,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 488,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 488,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 488,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 489,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 489,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 489,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 489,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 490,
+      "logprob": -8.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 490,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 490,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 490,
+      "logprob": -10.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 491,
+      "logprob": -3.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 491,
+      "logprob": -3.6875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 491,
+      "logprob": -4.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 491,
+      "logprob": -5.1875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 492,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 492,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 492,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 492,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 493,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 493,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 493,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 493,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 494,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 494,
+      "logprob": -19.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 494,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 494,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 495,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 495,
+      "logprob": -13.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 495,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 495,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 496,
+      "logprob": -5.1875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 496,
+      "logprob": -5.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 496,
+      "logprob": -5.6875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 496,
+      "logprob": -5.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 497,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 497,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 497,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 497,
+      "logprob": -12.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 498,
+      "logprob": -4.21875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 498,
+      "logprob": -5.21875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 498,
+      "logprob": -5.21875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 498,
+      "logprob": -5.71875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 499,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 499,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 499,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 499,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 500,
+      "logprob": -16.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 500,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 500,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 500,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 501,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 501,
+      "logprob": -22.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 501,
+      "logprob": -20.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 501,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 502,
+      "logprob": -5.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 502,
+      "logprob": -6.6875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 502,
+      "logprob": -6.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 502,
+      "logprob": -7.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 503,
+      "logprob": -4.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 503,
+      "logprob": -6.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 503,
+      "logprob": -6.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 503,
+      "logprob": -8.5625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 504,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 504,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 504,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 504,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 505,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 505,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 505,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 505,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 506,
+      "logprob": -4.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 506,
+      "logprob": -4.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 506,
+      "logprob": -5.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 506,
+      "logprob": -6.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 507,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 507,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 507,
+      "logprob": -19.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 507,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 508,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 508,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 508,
+      "logprob": -18.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 508,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 509,
+      "logprob": -7.03125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 509,
+      "logprob": -8.0625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 509,
+      "logprob": -8.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 509,
+      "logprob": -8.5625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 510,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 510,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 510,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 510,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 511,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 511,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 511,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 511,
+      "logprob": -20.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 512,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 512,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 512,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 512,
+      "logprob": -20.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 513,
+      "logprob": -3.328125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 513,
+      "logprob": -4.34375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 513,
+      "logprob": -4.34375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 513,
+      "logprob": -5.84375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 514,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 514,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 514,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 514,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 515,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 515,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 515,
+      "logprob": -19.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 515,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 516,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 516,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 516,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 516,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 517,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 517,
+      "logprob": -22.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 517,
+      "logprob": -21.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 517,
+      "logprob": -22.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 518,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 518,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 518,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 518,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 519,
+      "logprob": -4.1875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 519,
+      "logprob": -3.203125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 519,
+      "logprob": -4.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 519,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 520,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 520,
+      "logprob": -11.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 520,
+      "logprob": -11.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 520,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 521,
+      "logprob": -4.3125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 521,
+      "logprob": -4.8125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 521,
+      "logprob": -4.3125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 521,
+      "logprob": -5.8125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 522,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 522,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 522,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 522,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 523,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 523,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 523,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 523,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 524,
+      "logprob": -3.109375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 524,
+      "logprob": -4.125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 524,
+      "logprob": -4.625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 524,
+      "logprob": -5.125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 525,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 525,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 525,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 525,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 526,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 526,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 526,
+      "logprob": -10.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 526,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 527,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 527,
+      "logprob": -21.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 527,
+      "logprob": -19.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 527,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 528,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 528,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 528,
+      "logprob": -16.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 528,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 529,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 529,
+      "logprob": -13.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 529,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 529,
+      "logprob": -12.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 530,
+      "logprob": -10.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 530,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 530,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 530,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 531,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 531,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 531,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 531,
+      "logprob": -19.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 532,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 532,
+      "logprob": -22.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 532,
+      "logprob": -21.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 532,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 533,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 533,
+      "logprob": -21.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 533,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 533,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 534,
+      "logprob": -2.65625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 534,
+      "logprob": -4.15625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 534,
+      "logprob": -4.65625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 534,
+      "logprob": -5.15625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 535,
+      "logprob": -24.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 535,
+      "logprob": -27.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 535,
+      "logprob": -25.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 535,
+      "logprob": -28.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 536,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 536,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 536,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 536,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 537,
+      "logprob": -9.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 537,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 537,
+      "logprob": -10.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 537,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 538,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 538,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 538,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 538,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 539,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 539,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 539,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 539,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 540,
+      "logprob": -3.359375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 540,
+      "logprob": -4.34375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 540,
+      "logprob": -4.34375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 540,
+      "logprob": -5.84375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 541,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 541,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 541,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 541,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 542,
+      "logprob": -21.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 542,
+      "logprob": -23.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 542,
+      "logprob": -21.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 542,
+      "logprob": -22.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 543,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 543,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 543,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 543,
+      "logprob": -18.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 544,
+      "logprob": -18.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 544,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 544,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 544,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 545,
+      "logprob": -12.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 545,
+      "logprob": -14.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 545,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 545,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 546,
+      "logprob": -7.53125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 546,
+      "logprob": -8.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 546,
+      "logprob": -8.0625,
+      "is_correct": 1
+    },
+    {
+      "group_id": 546,
+      "logprob": -8.5625,
+      "is_correct": 0
+    },
+    {
+      "group_id": 547,
+      "logprob": -3.875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 547,
+      "logprob": -5.875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 547,
+      "logprob": -5.375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 547,
+      "logprob": -6.875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 548,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 548,
+      "logprob": -17.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 548,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 548,
+      "logprob": -17.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 549,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 549,
+      "logprob": -21.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 549,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 549,
+      "logprob": -22.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 550,
+      "logprob": -12.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 550,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 550,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 550,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 551,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 551,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 551,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 551,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 552,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 552,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 552,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 552,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 553,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 553,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 553,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 553,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 554,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 554,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 554,
+      "logprob": -14.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 554,
+      "logprob": -15.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 555,
+      "logprob": -12.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 555,
+      "logprob": -13.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 555,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 555,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 556,
+      "logprob": -18.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 556,
+      "logprob": -20.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 556,
+      "logprob": -19.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 556,
+      "logprob": -21.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 557,
+      "logprob": -8.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 557,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 557,
+      "logprob": -9.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 557,
+      "logprob": -11.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 558,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 558,
+      "logprob": -19.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 558,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 558,
+      "logprob": -18.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 559,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 559,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 559,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 559,
+      "logprob": -18.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 560,
+      "logprob": -3.53125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 560,
+      "logprob": -4.53125,
+      "is_correct": 1
+    },
+    {
+      "group_id": 560,
+      "logprob": -5.03125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 560,
+      "logprob": -5.53125,
+      "is_correct": 0
+    },
+    {
+      "group_id": 561,
+      "logprob": -3.671875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 561,
+      "logprob": -5.1875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 561,
+      "logprob": -5.1875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 561,
+      "logprob": -5.6875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 562,
+      "logprob": -8.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 562,
+      "logprob": -10.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 562,
+      "logprob": -9.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 562,
+      "logprob": -10.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 563,
+      "logprob": -3.71875,
+      "is_correct": 1
+    },
+    {
+      "group_id": 563,
+      "logprob": -3.21875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 563,
+      "logprob": -4.21875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 563,
+      "logprob": -5.71875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 564,
+      "logprob": -23.5,
+      "is_correct": 1
+    },
+    {
+      "group_id": 564,
+      "logprob": -26.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 564,
+      "logprob": -24.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 564,
+      "logprob": -26.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 565,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 565,
+      "logprob": -20.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 565,
+      "logprob": -18.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 565,
+      "logprob": -19.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 566,
+      "logprob": -14.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 566,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 566,
+      "logprob": -15.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 566,
+      "logprob": -16.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 567,
+      "logprob": -13.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 567,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 567,
+      "logprob": -14.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 567,
+      "logprob": -15.0,
+      "is_correct": 0
+    },
+    {
+      "group_id": 568,
+      "logprob": -15.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 568,
+      "logprob": -17.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 568,
+      "logprob": -16.5,
+      "is_correct": 0
+    },
+    {
+      "group_id": 568,
+      "logprob": -17.0,
+      "is_correct": 1
+    },
+    {
+      "group_id": 569,
+      "logprob": -5.875,
+      "is_correct": 0
+    },
+    {
+      "group_id": 569,
+      "logprob": -6.375,
+      "is_correct": 1
+    },
+    {
+      "group_id": 569,
+      "logprob": -7.375,
+      "is_correct": 0
+    },
+    {
+      "group_id": 569,
+      "logprob": -8.375,
+      "is_correct": 0
+    }
+  ]
+}

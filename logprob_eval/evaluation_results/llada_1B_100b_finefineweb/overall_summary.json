@@ -1,0 +1,25 @@
+{
+  "model_name": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/diffusion/model_output/llada_1B_100b_finefineweb/checkpoint-257000",
+  "model_short_name": "llada_1B_100b_finefineweb",
+  "model_type": "masked",
+  "timestamp": "2025-08-26T12:11:07.331486",
+  "tasks": [
+    {
+      "task": "arc_easy",
+      "accuracy": 0.2596491228070175,
+      "correct": 148,
+      "total": 570
+    }
+  ],
+  "average_accuracy": 0.2596491228070175,
+  "args": {
+    "model_name_or_path": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/ruanjunhao04/diffusion/model_output/llada_1B_100b_finefineweb/checkpoint-257000",
+    "model_type": "masked",
+    "tasks": "arc_easy",
+    "batch_size": 32,
+    "limit": 0,
+    "output_dir": "evaluation_results",
+    "num_workers": 4,
+    "trust_remote_code": true
+  }
+}

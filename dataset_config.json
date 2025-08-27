@@ -1,0 +1,10 @@
+{
+  "local_paths": {
+    "ultra_fineweb": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/BERT_TRAINING_SERVICE/platform/dataset/openbmb/Ultra-FineWeb/main",
+    "fineweb_10b": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/BERT_TRAINING_SERVICE/platform/dataset/EleutherAI/fineweb-edu-dedup-10b/main",
+    "wikipedia": "/path/to/local/wikipedia",
+    "finefineweb": "/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/BERT_TRAINING_SERVICE/platform/dataset/m-a-p/FineFineWeb-sample/main",
+    "filtered_finefineweb":"/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/datasets/filtered_finefineweb",
+    "finefineweb_validation":"/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/BERT_TRAINING_SERVICE/platform/dataset/m-a-p/FineFineWeb-validation/main"
+  }
+}
