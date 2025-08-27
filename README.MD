@@ -55,3 +55,7 @@ logprob_eval下面也有同样的main.sh, 不过他还没有到达我的预期�
 2. 加入类似dream的基于pretrained ARM的CPT过程。
 3. ADD SFT
 
+
+## 其他可选的训练仓库
+我们注意到还存在基于pytorch-lightning的预训练仓库，这似乎是llada社区所很常见的一种选择，感兴趣的朋友也可以使用这个
+https://github.com/Auraithm/LLADA_pretraining/tree/main
