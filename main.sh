@@ -1,81 +1,83 @@
 #!/bin/bash
-export NUMEXPR_MAX_THREADS=1000
+# 这个脚本现在接收10个参数来运行训练任务
 
-source /mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/.bashrc
 
-mamba activate sglang
-echo $HF_HOME
 
-cd /mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04
-export WANDB_DISABLED=true
+# --- 从命令行参数中读取配置，当然你也可以考虑直接hard code ---
+OUTPUT_DIR=$1
+MLM_SCHEDULE_TYPE=$2
+MLM_PROB_START=$3
+MLM_PROB_END=$4
+BATCH_SIZE=$5
+GRAD_ACCUM_STEPS=$6
+CONFIG_PATH=$7
+MODE=${8}
+DATASET_NAME=${9}
+MAX_LENGTH=${10}
+EPOCHS=${11}
+tail_bias_factor=${12}
+
+
+echo "--- 任务配置 ---"
+echo "输出目录: ${OUTPUT_DIR}"
+echo "MLM 调度器: ${MLM_SCHEDULE_TYPE}"
+echo "MLM 概率起始值: ${MLM_PROB_START}"
+echo "MLM 概率结束值: ${MLM_PROB_END}"
+echo "Batch Size: ${BATCH_SIZE}"
+echo "梯度累积步数: ${GRAD_ACCUM_STEPS}"
+echo "模型配置文件: ${CONFIG_PATH}"
+echo "运行模式: ${MODE}"
+echo "数据集名称: ${DATASET_NAME}"
+echo "最大长度: ${MAX_LENGTH}"
+echo "----------------"
+
+
+# --- 固定配置 ---
+# 确保脚本在遇到错误时退出
 set -e
 
-# --- 配置你的路径和参数 ---
+# 激活环境和设置环境变量
+export NUMEXPR_MAX_THREADS=1000
+export SWANLAB_SAVE_DIR=/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/swanlab
+export SWANLAB_API_KEY=EogSfKa8RaKM7NHRF8GSf
+source /mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/.bashrc
+mamba activate sglang
+echo "HF_HOME is set to: $HF_HOME"
 
-# 1. 路径设置
-# 将这里的路径替换为你的实际路径
+# 进入工作目录
+cd /mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04
+export WANDB_DISABLED=true
+
+# 固定的路径
 MODEL_PATH="/mnt/hdfs/zw04mlnn01/checkpoint/llm_platform/model/answerdotai/ModernBERT-base/main"
-# MODEL_PATH="/mnt/hdfs/zw04mlnn01/checkpoint/llm_platform/model/Qwen/Qwen3-4B-Instruct-2507/main"
-# DATASET_PATH="/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/BERT_TRAINING_SERVICE/platform/dataset/EleutherAI/fineweb-edu-dedup-10b/main"
-# DATASET_NAME="debug"
-# DATASET_NAME="fineweb_10b"
-# DATASET_NAME="ultra_fineweb"
-# DATASET_NAME="finefineweb"
-DATASET_NAME="filtered_finefineweb"
 
-# 2. 训练超参数
-EPOCHS=2
-LEARNING_RATE=5e-4
-BATCH_SIZE=8 # per_device_train_batch_size
-GRAD_ACCUM_STEPS=32
+# 固定的训练超参数
+
+LEARNING_RATE=2e-4
 
 
-MLM_SCHEDULE_TYPE=random
-MLM_PROB_START=1
-MLM_PROB_END=0
 
-# CONFIG_PATH=/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion/model_config/modernbert_large.json
-# CONFIG_PATH=/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion/model_config/llama_400M.json
-# 模型配置文件基础路径
-BASE_PATH="/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion"
-
-# # 模型配置文件名
-# OUTPUT_DIR="diffusion/model_output/debug_llada"
-# CONFIG_FILE="llada_1b.json"
-# MODE=llada
-
-
-# OUTPUT_DIR=/mnt/dolphinfs/ssd_pool/docker/user/hadoop-aipnlp/INS/ruanjunhao04/diffusion/model_output/debug_llama
-# CONFIG_FILE="llama_1b.json"
-# MODE=llama
-
-CONFIG_PATH="${BASE_PATH}/model_config/${CONFIG_FILE}"
-
-CUDA_VISIBLE_DEVICES=0 python -m diffusion.main \
+# --- 运行训练命令 ---
+accelerate launch -m diffusion.main \
   --model_name_or_path "${MODEL_PATH}" \
   --dataset_name "${DATASET_NAME}" \
   --output_dir "${OUTPUT_DIR}" \
   --config_path "${CONFIG_PATH}" \
   --num_train_epochs ${EPOCHS} \
   --learning_rate ${LEARNING_RATE} \
+  --tail_bias_factor ${tail_bias_factor} \
   --per_device_train_batch_size ${BATCH_SIZE} \
-  --per_device_eval_batch_size 16 \
-  --eval_steps 1000 \
   --gradient_accumulation_steps ${GRAD_ACCUM_STEPS} \
-  --dataloader_num_workers 0 \
+  --dataloader_num_workers 8 \
   --warmup_ratio 0.01 \
   --mlm_start_prob "${MLM_PROB_START}" \
   --mlm_end_prob "${MLM_PROB_END}" \
-  --logging_steps 1 \
+  --logging_steps 10 \
   --save_total_limit 2 \
   --seed 42 \
-  --validation_dataset_name finefineweb_validation \
-  --max_length 3000 \
+  --max_length "${MAX_LENGTH}" \
   --mlm_schedule_type "${MLM_SCHEDULE_TYPE}" \
   --mode "${MODE}" \
-  --save_steps 1000 \
   --bf16
 
-
-
-
+echo "训练任务完成。"
